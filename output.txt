@@ -1,0 +1,95 @@
+Sentence: The dog and the extant gray wolf are sister taxa as modern wolves are not closely related to the wolves that were first domesticated, which implies that the direct ancestor of the dog is extinct
+Question: What implies that the direct ancestor of the dog is extinct?
+
+Sentence: The dog and the extant gray wolf are sister taxa as modern wolves are not closely related to the wolves that were first domesticated, which implies that the direct ancestor of the dog is extinct
+Question: What are sister taxa as modern wolves are not closely related to the wolves that were first domesticated?
+
+Sentence: The dog and the extant gray wolf are sister taxa as modern wolves are not closely related to the wolves that were first domesticated, which implies that the direct ancestor of the dog is extinct
+Question: What are not closely related to the wolves that were first domesticated?
+
+Sentence: The dog and the extant gray wolf are sister taxa as modern wolves are not closely related to the wolves that were first domesticated, which implies that the direct ancestor of the dog is extinct
+Question: What does first domesticated imply?
+
+Sentence: The dog and the extant gray wolf are sister taxa as modern wolves are not closely related to the wolves that were first domesticated, which implies that the direct ancestor of the dog is extinct
+Question: What are the dog and the extant gray wolf as modern wolves are not closely related to the wolves that were first domesticated?
+
+Sentence: The dog and the extant gray wolf are sister taxa as modern wolves are not closely related to the wolves that were first domesticated, which implies that the direct ancestor of the dog is extinct
+Question: What are modern wolves not closely related to?
+
+Sentence: The dog and the extant gray wolf are sister taxa as modern wolves are not closely related to the wolves that were first domesticated, which implies that the direct ancestor of the dog is extinct
+Question: Does first domesticated imply that the direct ancestor of the dog is extinct?
+
+Sentence: The dog was the first species to be domesticated and has been selectively bred over millennia for various behaviors, sensory capabilities, and physical attributes
+Question: What has been selectively bred over millennia for various behaviors, sensory capabilities, and physical attributes?
+
+Sentence: The dog was the first species to be domesticated and has been selectively bred over millennia for various behaviors, sensory capabilities, and physical attributes
+Question: When has the dog been selectively bred for various behaviors, sensory capabilities, and physical attributes?
+
+Sentence: The dog was the first species to be domesticated and has been selectively bred over millennia for various behaviors, sensory capabilities, and physical attributes
+Question: What has the dog been selectively bred over millennia for?
+
+Sentence: The dog was the first species to be domesticated and has been selectively bred over millennia for various behaviors, sensory capabilities, and physical attributes
+Question: What was the first species to be domesticated?
+
+Sentence: The dog was the first species to be domesticated and has been selectively bred over millennia for various behaviors, sensory capabilities, and physical attributes
+Question: What was the dog?
+
+Sentence: Dogs vary widely in shape, size and colors
+Question: What vary widely in shape?
+
+Sentence: Dogs vary widely in shape, size and colors
+Question: What do dogs vary widely in?
+
+Sentence: Dogs vary widely in shape, size and colors
+Question: What is size and colors?
+
+Sentence: Dogs vary widely in shape, size and colors
+Question: What is shape?
+
+Sentence: Dogs perform many roles for humans, such as hunting, herding, pulling loads, protection, assisting police and military, companionship and, more recently, aiding handicapped individuals and therapeutic roles
+Question: What perform many roles for humans herding?
+
+Sentence: Dogs perform many roles for humans, such as hunting, herding, pulling loads, protection, assisting police and military, companionship and, more recently, aiding handicapped individuals and therapeutic roles
+Question: What do dogs perform herding?
+
+Sentence: Dogs perform many roles for humans, such as hunting, herding, pulling loads, protection, assisting police and military, companionship and, more recently, aiding handicapped individuals and therapeutic roles
+Question: What aids handicapped individuals and therapeutic roles?
+
+Sentence: Dogs perform many roles for humans, such as hunting, herding, pulling loads, protection, assisting police and military, companionship and, more recently, aiding handicapped individuals and therapeutic roles
+Question: Who does companionship aid?
+
+Sentence: Dogs perform many roles for humans, such as hunting, herding, pulling loads, protection, assisting police and military, companionship and, more recently, aiding handicapped individuals and therapeutic roles
+Question: What aid handicapped individuals and therapeutic roles?
+
+Sentence: Dogs perform many roles for humans, such as hunting, herding, pulling loads, protection, assisting police and military, companionship and, more recently, aiding handicapped individuals and therapeutic roles
+Question: Who are such as hunting?
+
+Sentence: Dogs perform many roles for humans, such as hunting, herding, pulling loads, protection, assisting police and military, companionship and, more recently, aiding handicapped individuals and therapeutic roles
+Question: Who do police and military aid?
+
+Sentence: Dogs perform many roles for humans, such as hunting, herding, pulling loads, protection, assisting police and military, companionship and, more recently, aiding handicapped individuals and therapeutic roles
+Question: What are humans as?
+
+Sentence: Dogs perform many roles for humans, such as hunting, herding, pulling loads, protection, assisting police and military, companionship and, more recently, aiding handicapped individuals and therapeutic roles
+Question: What are protection?
+
+Sentence: Dogs perform many roles for humans, such as hunting, herding, pulling loads, protection, assisting police and military, companionship and, more recently, aiding handicapped individuals and therapeutic roles
+Question: What are loads?
+
+Sentence: Dogs perform many roles for humans, such as hunting, herding, pulling loads, protection, assisting police and military, companionship and, more recently, aiding handicapped individuals and therapeutic roles
+Question: Does companionship aid handicapped individuals and therapeutic roles?
+
+Sentence: This influence on human society has given them the sobriquet ``man's best friend''
+Question: What has given them the sobriquet ``man's best friend''?
+
+Sentence: This influence on human society has given them the sobriquet ``man's best friend''
+Question: Who has this influence on human society given the sobriquet ``man's best friend''?
+
+Sentence: This influence on human society has given them the sobriquet ``man's best friend''
+Question: What has this influence on human society given the sobriquet ``man's best friend''?
+
+Sentence: The term dog typically is applied both to the species (or subspecies) as a whole, and any adult male member of the same
+Question: What typically is applied both to the species as a whole, and any adult male member of the same?
+
+Sentence: The term dog typically is applied both to the species (or subspecies) as a whole, and any adult male member of the same
+Question: What is the term dog typically applied to?
