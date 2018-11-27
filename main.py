@@ -1,4 +1,4 @@
-import sys, os, argparse, re, subprocess, wikipedia
+import sys, os, argparse, re, subprocess, wikipedia, json, pprint
 
 
 class FactoidQuesGenerator():
@@ -37,8 +37,8 @@ class FactoidQuesGenerator():
 			for quest_ans in quest_ans_pairs:
 				if re.match(regexStr, quest_ans):
 					qa_tuple = quest_ans.split('\t')
-					question, answer = qa_tuple[0], qa_tuple[1]
-					results.append({'Question': question, 'Answer': answer})
+					question, sent, answer, score = qa_tuple[0], qa_tuple[1], qa_tuple[2], qa_tuple[3]
+					results.append({'Sentence': sent, "Question": question, 'Answer': answer, 'Score': score})
 
 		return results # Returns an array of length (question_types)
 
@@ -49,25 +49,52 @@ def add_arguments():
 	return parser.parse_args()
 
 def data(topic):
-    page=wikipedia.page(topic)
-    return page.content
+	page=wikipedia.page(topic)
+	return page.content
 
-x=data("Dog").split('\n')
-blocks=[]
-for i in x:
-    if i and not "=" in i:
-        blocks.append(i)
-        
-sentences=[]
-for i in blocks:
-    sentences+=i.split(".")
-
+def getWikiArticle(topic, number=10):
+	x=data(topic).split('\n')
+	blocks=[]
+	for i in x:
+		if i and not "=" in i:
+			blocks.append(i)
+			
+	sentences=[]
+	for i in blocks:
+		sentences+=i.split(".")
+	return sentences[:number]
 
 q  = FactoidQuesGenerator()
-final = []
-for sentence in sentences[:10]:
-	question_list = q.generate_question(sentence)
-	final.extend(question_list)
 
-stringsList = ["Sentence: " + qaphrase["Answer"] + "\nQuestion: " + qaphrase['Question'] for qaphrase in final]
-open("../output.txt","w").write("\n\n".join(stringsList))
+while True:
+	qType = input("Enter input type (W for wikipedia, S for sentence): ")
+
+	if qType == "W":
+		topic = input("Enter topic: ")
+		sentences = getWikiArticle(topic)
+	elif qType == "S":
+		sentence = input("Enter sentence: ")
+		sentences = [sentence]
+	else:
+		print("Invalid question type")
+		continue
+
+	final = []
+	for sentence in sentences:
+		question_list = q.generate_question(sentence)
+		final.extend(question_list)
+
+	outputDict = {}
+
+	for qa in final:
+		if qa['Sentence'] in outputDict:
+			outputDict[qa['Sentence']].append({"Question": qa['Question'], "Answer": qa['Answer'], "Score": qa['Score']})
+		else:
+			outputDict[qa['Sentence']] = [{"Question": qa['Question'], "Answer": qa['Answer'], "Score": qa['Score']}]
+
+	output = [{elem: sorted(outputDict[elem], key=lambda k: float(k['Score']))} for elem in outputDict]
+
+	outputDict = json.loads(json.dumps(outputDict))
+
+	with open("../output.json","w") as f:
+		json.dump(outputDict, f, indent=4)

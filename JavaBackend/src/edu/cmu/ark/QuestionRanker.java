@@ -16,9 +16,6 @@ import edu.stanford.nlp.trees.tregex.TregexPattern;
  * (e.g., grammaticality, "makes sense", use of the correct WH word, etc.).
  * 
  * This class constitutes "stage 3" as discussed in the original technical report on the system. 
- * 
- *  
- * @author mheilman@cs.cmu.edu
  *
  */
 public class QuestionRanker implements Serializable{

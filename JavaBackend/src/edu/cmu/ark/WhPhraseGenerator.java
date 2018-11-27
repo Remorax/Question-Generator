@@ -13,8 +13,6 @@ import java.util.*;
  * 
  * This is called by the question transducer class.  These two classes 
  * constitute "stage 2" as discussed in the original technical report on the system. 
- * 
- * @author Michael Heilman (mheilman@cs.cmu.edu)
  */
 public class WhPhraseGenerator {
 	

@@ -16,9 +16,6 @@ import java.util.zip.GZIPInputStream;
  * ngram-count -order 5 -interpolate -kndiscount -text nyt_eng_200601.tok -lm nyt_eng_200601.lm -tolower -unk -prune 1e-6 -vocab my.vocab
  * 
  * Note that SRILM stores everything in BASE 10, not BASE e!
- * 
- * @author mheilman
- *
  */
 public class LanguageModel {
 	public LanguageModel(String path){		

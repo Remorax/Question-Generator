@@ -16,14 +16,6 @@ import java.util.Map.Entry;
 
 import edu.stanford.nlp.trees.Tree;
 
-/** 
- * Used in an optional ranking step to discount questions that
- * include very common nouns that appear in the text
- * (such questions may be ``obvious''). 
- * 
- * @author mheilman
- *
- */
 public class BagOfWordsExtractor {
 	private Set<String> stopWordList;
 	private static BagOfWordsExtractor instance;

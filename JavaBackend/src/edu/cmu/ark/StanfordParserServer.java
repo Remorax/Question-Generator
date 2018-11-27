@@ -12,8 +12,6 @@ import java.util.*;
 /**
  * Wrapper class to run the Stanford Parser as a socket server so the grammar need not
  * be loaded for every new sentence.
- * 
- * @author mheilman@cmu.edu
  *
  */
 public class StanfordParserServer  {
