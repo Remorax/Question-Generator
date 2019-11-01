@@ -1,0 +1,14 @@
+{
+    "The tallest dog is a Great Dane that stands 106 feet.": [
+        {
+            "Question": "What is a Great Dane that stands 106 feet?",
+            "Answer": "the tallest dog",
+            "Score": "2.4400251036815734"
+        },
+        {
+            "Question": "Who is the tallest dog?",
+            "Answer": "a Great Dane that stands 106 feet",
+            "Score": "1.726701910828161"
+        }
+    ]
+}

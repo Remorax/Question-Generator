@@ -1,0 +1,174 @@
+{
+    "The dog and the extant gray wolf are sister taxa as modern wolves are not closely related to the wolves that were first domesticated, which implies that the direct ancestor of the dog is extinct": [
+        {
+            "Question": "What implies that the direct ancestor of the dog is extinct?",
+            "Answer": "first domesticated",
+            "Score": "2.601200002207681"
+        },
+        {
+            "Question": "What are sister taxa as modern wolves are not closely related to the wolves that were first domesticated?",
+            "Answer": "the dog and the extant gray wolf",
+            "Score": "2.275378573472551"
+        },
+        {
+            "Question": "What are not closely related to the wolves that were first domesticated?",
+            "Answer": "modern wolves",
+            "Score": "2.1118573582994773"
+        },
+        {
+            "Question": "What does first domesticated imply?",
+            "Answer": "that the direct ancestor of the dog is extinct",
+            "Score": "1.9287606571856972"
+        },
+        {
+            "Question": "What are the dog and the extant gray wolf as modern wolves are not closely related to the wolves that were first domesticated?",
+            "Answer": "sister taxa",
+            "Score": "1.8757250389389977"
+        },
+        {
+            "Question": "What are modern wolves not closely related to?",
+            "Answer": "to the wolves that were first domesticated",
+            "Score": "1.4971252323857458"
+        },
+        {
+            "Question": "Does first domesticated imply that the direct ancestor of the dog is extinct?",
+            "Answer": "",
+            "Score": "1.6373185139031947"
+        }
+    ],
+    "The dog was the first species to be domesticated and has been selectively bred over millennia for various behaviors, sensory capabilities, and physical attributes": [
+        {
+            "Question": "What has been selectively bred over millennia for various behaviors, sensory capabilities, and physical attributes?",
+            "Answer": "the dog",
+            "Score": "2.478570404158583"
+        },
+        {
+            "Question": "When has the dog been selectively bred for various behaviors, sensory capabilities, and physical attributes?",
+            "Answer": "over millennia",
+            "Score": "2.466921034765379"
+        },
+        {
+            "Question": "What has the dog been selectively bred over millennia for?",
+            "Answer": "for various behaviors, sensory capabilities, and physical attributes",
+            "Score": "2.306033007657313"
+        },
+        {
+            "Question": "What was the first species to be domesticated?",
+            "Answer": "the dog",
+            "Score": "2.1311214099179923"
+        },
+        {
+            "Question": "What was the dog?",
+            "Answer": "the first species to be domesticated",
+            "Score": "1.816451246432905"
+        }
+    ],
+    "Dogs vary widely in shape, size and colors": [
+        {
+            "Question": "What vary widely in shape?",
+            "Answer": "dogs",
+            "Score": "1.9879444413979044"
+        },
+        {
+            "Question": "What do dogs vary widely in?",
+            "Answer": "in shape",
+            "Score": "1.867400501526483"
+        },
+        {
+            "Question": "What is size and colors?",
+            "Answer": "shape",
+            "Score": "1.7276633349331547"
+        },
+        {
+            "Question": "What is shape?",
+            "Answer": "size and colors",
+            "Score": "1.415674491035227"
+        }
+    ],
+    "Dogs perform many roles for humans, such as hunting, herding, pulling loads, protection, assisting police and military, companionship and, more recently, aiding handicapped individuals and therapeutic roles": [
+        {
+            "Question": "What perform many roles for humans herding?",
+            "Answer": "dogs",
+            "Score": "2.4273121084272007"
+        },
+        {
+            "Question": "What do dogs perform herding?",
+            "Answer": "many roles for humans",
+            "Score": "2.065277038543535"
+        },
+        {
+            "Question": "What aids handicapped individuals and therapeutic roles?",
+            "Answer": "companionship",
+            "Score": "2.04412185645102"
+        },
+        {
+            "Question": "Who does companionship aid?",
+            "Answer": "handicapped individuals and therapeutic roles",
+            "Score": "1.9755824176383656"
+        },
+        {
+            "Question": "What aid handicapped individuals and therapeutic roles?",
+            "Answer": "police and military",
+            "Score": "1.958479575576704"
+        },
+        {
+            "Question": "Who are such as hunting?",
+            "Answer": "humans",
+            "Score": "1.9440551376600095"
+        },
+        {
+            "Question": "Who do police and military aid?",
+            "Answer": "handicapped individuals and therapeutic roles",
+            "Score": "1.8136149218173598"
+        },
+        {
+            "Question": "What are humans as?",
+            "Answer": "such as hunting",
+            "Score": "1.736494156454454"
+        },
+        {
+            "Question": "What are protection?",
+            "Answer": "loads",
+            "Score": "1.5995867833061188"
+        },
+        {
+            "Question": "What are loads?",
+            "Answer": "protection",
+            "Score": "1.5356611274421803"
+        },
+        {
+            "Question": "Does companionship aid handicapped individuals and therapeutic roles?",
+            "Answer": "",
+            "Score": "1.2863358474842803"
+        }
+    ],
+    "This influence on human society has given them the sobriquet ``man's best friend''": [
+        {
+            "Question": "What has given them the sobriquet ``man's best friend''?",
+            "Answer": "this influence on human society",
+            "Score": "1.3585602961413628"
+        },
+        {
+            "Question": "Who has this influence on human society given the sobriquet ``man's best friend''?",
+            "Answer": "them",
+            "Score": "1.1968394053438405"
+        },
+        {
+            "Question": "What has this influence on human society given the sobriquet ``man's best friend''?",
+            "Answer": "them",
+            "Score": "1.1662619237089187"
+        }
+    ],
+    "The term dog typically is applied both to the species (or subspecies) as a whole, and any adult male member of the same": [
+        {
+            "Question": "What typically is applied both to the species as a whole, and any adult male member of the same?",
+            "Answer": "the term dog",
+            "Score": "2.208590945496307"
+        },
+        {
+            "Question": "What is the term dog typically applied to?",
+            "Answer": "both to the species as a whole, and any adult male member of the same",
+            "Score": "1.8481002005992841"
+        }
+    ]
+}
